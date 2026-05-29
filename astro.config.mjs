@@ -11,10 +11,14 @@ export default defineConfig({
 		starlight({
 			title: "Docs",
 			logo: {
-				// src: './src/assets/logo.svg',
 				replacesTitle: true,
 				light: "./src/assets/logo.svg",
 				dark: "./src/assets/logo-dark.svg",
+			},
+			favicon: "/favicon.svg",
+			lastUpdated: true,
+			editLink: {
+				baseUrl: "https://github.com/yuramedia/docs/edit/main/",
 			},
 			social: [
 				{
@@ -50,11 +54,14 @@ export default defineConfig({
 			],
 			sidebar: [
 				{
-					label: "Guides",
+					label: "Panduan",
 					items: [
-						// Each item here is one entry in the navigation menu.
 						{
-							label: "Panduan Terjemahan Serial Pendek - Cina ke Indonesia",
+							label: "Memulai",
+							slug: "guides/example",
+						},
+						{
+							label: "Terjemahan Serial Pendek — Cina ke Indonesia",
 							slug: "guides/panduan-terjemahan-serial-pendek-cina-ke-indonesia",
 						},
 					],
@@ -64,7 +71,7 @@ export default defineConfig({
 					autogenerate: { directory: "reference" },
 				},
 			],
-			tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 2 },
+			tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 3 },
 		}),
 		sitemap(),
 	],
