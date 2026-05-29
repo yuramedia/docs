@@ -1,8 +1,37 @@
 ---
 title: Yuramedia Docs
-description: Selamat datang di dokumentasi Yuramedia Link!
+description: Dokumentasi panduan lokalisasi dan terjemahan untuk tim Yuramedia Link.
 hero:
-  tagline: Selamat datang di dokumentasi Yuramedia Link!
+  tagline: Panduan lokalisasi dan terjemahan resmi Yuramedia Link.
   image:
-    file: ../../assets/logo-dark.svg
+    light: ../../assets/logo.svg
+    dark: ../../assets/logo-dark.svg
+  actions:
+    - text: Mulai Baca
+      link: /guides/panduan-terjemahan-serial-pendek-cina-ke-indonesia/
+      icon: right-arrow
+      variant: primary
+    - text: Istilah & Referensi
+      link: /reference/istilah/
+      icon: open-book
+      variant: minimal
 ---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Apa yang ada di sini?
+
+<CardGrid>
+  <Card title="Panduan Terjemahan" icon="document">
+    Aturan lengkap lokalisasi serial pendek Tiongkok ke bahasa Indonesia — dari nama tokoh, istilah budaya, hingga format subtitle.
+  </Card>
+  <Card title="Panduan Istilah" icon="open-book">
+    Glosarium istilah yang sudah dilokalisasi per genre: Isekai, Xianxia, Romansa, dan lainnya.
+  </Card>
+  <Card title="Sumber Tambahan" icon="external">
+    Referensi eksternal: style guide Netflix, Crunchyroll, NBCU, software subtitle, dan sumber terjemahan.
+  </Card>
+  <Card title="Berkontribusi" icon="pencil">
+    Ingin menambahkan istilah atau panduan baru? Baca panduan kontribusi di GitHub.
+  </Card>
+</CardGrid>

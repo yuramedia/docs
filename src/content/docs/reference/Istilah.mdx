@@ -1,6 +1,6 @@
 ---
 title: Panduan Lokalisasi Istilah
-description: Referensi Istilah yang sudah dilokalisasi.
+description: Referensi istilah yang sudah dilokalisasi, dikelompokkan berdasarkan genre.
 ---
 import { Badge } from '@astrojs/starlight/components';
 import { Tabs, TabItem } from '@astrojs/starlight/components';
@@ -10,49 +10,131 @@ import { Tabs, TabItem } from '@astrojs/starlight/components';
 > Format: `| Istilah Asli | Terjemahan / Lokalisasi | Catatan |`
 
 <Tabs>
+  <TabItem label="Istilah Umum">
+    Istilah yang berlaku lintas genre — subtitle, dialog, dan elemen narasi umum.
+
+    | Istilah Asli | Terjemahan / Lokalisasi | Catatan |
+    | --- | --- | --- |
+    | Flashback | Kilas balik | |
+    | Voice over | Narasi | |
+    | Inner monologue | Suara hati | Gunakan tanda kurung `(...)` |
+    | On-screen text | Teks layar | Gunakan tanda kurung `(...)` |
+    | Sound effect (SFX) | Efek suara | Opsional ditampilkan |
+    | Theme song | Lagu tema | |
+    | Ending song | Lagu penutup | |
+    | Episode | Episode | Tidak perlu diterjemahkan |
+    | Season | Musim | |
+    | Cliffhanger | Gantung | Deskripsi situasi, bukan kata harfiah |
+    | Foreshadowing | Pertanda | |
+    | Plot twist | Kejutan cerita | |
+    | Protagonist | Tokoh utama | |
+    | Antagonist | Tokoh antagonis | |
+    | Supporting character | Tokoh pendukung | |
+    | Cameo | Penampilan singkat | |
+    | Recap | Ringkasan | |
+  </TabItem>
+
   <TabItem label="Genre Isekai">
-    | Istilah Asli                   | Terjemahan / Lokalisasi        | Catatan                          |
-    | ------------------------------ | ------------------------------ | -------------------------------- |
-    | Soul Gem                       | Atma / Adiratna                |                                  |
-    | Grief Seed                     | Benih Nestapa                  |                                  |
-    | Magical Girl                   | Puan Syaman                    |                                  |
-    | Deadly Fire                    | Agni Maut                      |                                  |
-    | Snowball                       | Bol Hima                       |                                  |
-    | Light / Sinar                  | Askara                         |                                  |
-    | Blue                           | Wiru                           |                                  |
-    | Moon                           | Candra                         |                                  |
-    | Evening / Night (Petang/Malam) | Kramakala / Lastri             | dua varian untuk konteks berbeda |
-    | Powerless                      | Tunakuasa / Nirkuasa / Nirwasa | beberapa opsi tergantung konteks |
-    | Lost Skill                     | Talenta Sirna                  |                                  |
-    | Fire Bolt                      | Agni Dhura                     |                                  |
-    | Fire Ball                      | Agni Bol / Agni Cemeti         |                                  |
-    | Hellfire of Decimation         | Naraka Agni Praharana          |                                  |
-    | Permafrost                     | Ibun Amerta                    |                                  |
-    | Sage                           | Resi                           |                                  |
-    | Darkness                       | Timira / Awidya                | pilihan kata bergaya klasik      |
-    | After sales                    | Purna jual                     | frasa bisnis                     |
-    | Empress                        | Maharani                       |                                  |
-    | Slide                          | Salindia                       | istilah UI/presentasi            |
-    | List                           | Senarai                        |                                  |
-    | Ruler / Penguasa               | Adhikara                       |                                  |
-    | Duke                           | Adipati                        | gelar feodal lokal               |
-    | Cue card                       | Kartu Isyarat                  |                                  |
-    | Corporate university           | Wiyata Kinarya                 | istilah korporat edukasi         |
-    | Follow up                      | Tindak lanjut                  |                                  |
-    | Cartridge                      | Katrij                         |                                  |
-    | User interface                 | Antarmuka pengguna             | istilah TI                       |
-    | Baron                          | Demang                         | gelar lokal                      |
-    | Viscount / Vice                | Wakil Wedana                   | gelar lokal                      |
-    | Count / Earl                   | Wedana                         | gelar lokal                      |
-    | Marquis / Margrave             | Tumenggung                     | gelar lokal                      |
-    | Pastor                         | Padri / Pendeta / Romo         | konteks agama berbeda            |
-    | Saint                          | Santo / Santa                  | tergantung gender                |
-    | Prototype                      | Purwarupa                      |                                  |
-    | Holy Cannon                    | Lela Wimala                    | istilah fantasi                  |
-    | Inferno Flame                  | Dahana Yamani                  | istilah fantasi                  |
-    | Shadow Needle                  | Pasak Niskala                  | istilah fantasi                  |
-    | Drive Thru                     | Lantatur                       | istilah layanan                  |
-    | Starlight                      | Kirana Kartika                 | istilah puitis/fantasi           |
+    | Istilah Asli | Terjemahan / Lokalisasi | Catatan |
+    | --- | --- | --- |
+    | Soul Gem | Atma / Adiratna | |
+    | Grief Seed | Benih Nestapa | |
+    | Magical Girl | Puan Syaman | |
+    | Deadly Fire | Agni Maut | |
+    | Snowball | Bol Hima | |
+    | Light / Sinar | Askara | |
+    | Blue | Wiru | |
+    | Moon | Candra | |
+    | Evening / Night (Petang/Malam) | Kramakala / Lastri | Dua varian untuk konteks berbeda |
+    | Powerless | Tunakuasa / Nirkuasa / Nirwasa | Beberapa opsi tergantung konteks |
+    | Lost Skill | Talenta Sirna | |
+    | Fire Bolt | Agni Dhura | |
+    | Fire Ball | Agni Bol / Agni Cemeti | |
+    | Hellfire of Decimation | Naraka Agni Praharana | |
+    | Permafrost | Ibun Amerta | |
+    | Sage | Resi | |
+    | Darkness | Timira / Awidya | Pilihan kata bergaya klasik |
+    | Empress | Maharani | |
+    | Duke | Adipati | Gelar feodal lokal |
+    | Baron | Demang | Gelar lokal |
+    | Viscount / Vice | Wakil Wedana | Gelar lokal |
+    | Count / Earl | Wedana | Gelar lokal |
+    | Marquis / Margrave | Tumenggung | Gelar lokal |
+    | Pastor | Padri / Pendeta / Romo | Konteks agama berbeda |
+    | Saint | Santo / Santa | Tergantung gender |
+    | Prototype | Purwarupa | |
+    | Holy Cannon | Lela Wimala | Istilah fantasi |
+    | Inferno Flame | Dahana Yamani | Istilah fantasi |
+    | Shadow Needle | Pasak Niskala | Istilah fantasi |
+    | Starlight | Kirana Kartika | Istilah puitis/fantasi |
+    | Ruler / Penguasa | Adhikara | |
+  </TabItem>
+
+  <TabItem label="Xianxia / Wuxia">
+    Istilah untuk genre kultivasi, perguruan silat, dan dunia persilatan. Lihat juga [aturan kultivasi](/guides/panduan-terjemahan-serial-pendek-cina-ke-indonesia/#211-tingkatan-kultivasi--xianxia) di panduan utama.
+
+    | Istilah Asli | Terjemahan / Lokalisasi | Catatan |
+    | --- | --- | --- |
+    | 气 / Qi | Tenaga dalam | Jangan gunakan "qi" atau "chi" mentah |
+    | 气功 / Qigong | Ilmu tenaga dalam | Terjemahan bebas |
+    | 内功 / Neigong | Tenaga batin | Teknik latihan internal |
+    | 武功 / Wugong | Ilmu silat | |
+    | 心法 / Xin fa | Jurus | Teknik inti perguruan |
+    | 筑基 / Zhu Ji | Pelatihan dasar | Tahap awal kultivasi |
+    | 结丹 / Jie Dan | Tingkat puncak | Urutan: Lianqi → Zhuji → Jindan → Yuanying |
+    | 元婴 / Yuan Ying | Tingkat atas | |
+    | 黄阶 / Huang Jie | Tingkat empat | Urutan: Langit → Bumi → Xuan → Huang |
+    | 玄阶 / Xuan Jie | Tingkat tiga | |
+    | 地阶 / Di Jie | Tingkat dua | |
+    | 天阶 / Tian Jie | Tingkat satu | |
+    | 太极拳 / Taijiquan | Tai Chi | Pengecualian: sudah dikenal di Indonesia |
+    | 如来神掌 | Tapak Sakti Buddha | Jangan "Tapak Rulai" |
+    | 轻功 / Qinggong | Ilmu meringankan tubuh | |
+    | 暗器 / Anqi | Senjata tersembunyi | |
+    | 门派 / Menpai | Perguruan / aliran | |
+    | 掌门 / Zhangmen | Ketua perguruan | |
+    | 长老 / Zhanglao | Tetua | |
+    | 弟子 / Dizi | Murid | |
+    | 师父 / Shifu | Guru / Suhu | Konteks hubungan lebih personal dari "guru" |
+    | 师兄 / Shixiong | Kak (nama) | Gunakan nama Indonesia; contoh: Kak Arwan |
+    | 师姐 / Shijie | Kak (nama) | Kakak perempuan seperguruan |
+    | 江湖 / Jianghu | Dunia persilatan | |
+    | 武林 / Wulin | Rimba persilatan | |
+    | 侠 / Xia | Pendekar | |
+    | 魔 / Mo | Iblis / setan | Tergantung konteks aliran sesat |
+    | 仙 / Xian | Dewa / Dewata | Makhluk kultivasi tertinggi |
+  </TabItem>
+
+  <TabItem label="Romansa & Drama">
+    Istilah untuk genre romansa modern, drama keluarga, dan slice-of-life.
+
+    | Istilah Asli | Terjemahan / Lokalisasi | Catatan |
+    | --- | --- | --- |
+    | 霸道总裁 / CEO galak | Bos yang arogan | Hindari "CEO" jika bisa diganti |
+    | 撒糖 / Momen manis | Momen manis | |
+    | 虐心 / Menyayat hati | Menyayat hati | |
+    | 甜宠 / Sweet romance | Romansa manis | |
+    | 双向奔赴 | Saling menyukai | Keduanya punya perasaan yang sama |
+    | 心动 / Jatuh hati | Jatuh hati / terpikat | |
+    | 暗恋 | Cinta diam-diam / diam-diam menyukai | |
+    | 表白 | Ungkap perasaan / nyatakan cinta | |
+    | 分手 | Putus | |
+    | 复合 | Balikan | |
+    | 前任 | Mantan | |
+    | 现任 | Pasangan sekarang | |
+    | 备胎 | Cadangan / opsi cadangan | Konotasi negatif |
+    | 闺蜜 | Sahabat (perempuan) | |
+    | 兄弟 | Bro / sahabat (laki-laki) | Tergantung register |
+    | 婆婆 | Ibu mertua | |
+    | 公公 | Ayah mertua | |
+    | 小姑子 | Adik ipar (perempuan) | |
+    | 大伯子 | Kakak ipar (laki-laki) | |
+    | 相亲 | Perjodohan | Kencan yang diatur |
+    | 逼婚 | Dipaksa menikah | |
+    | 闪婚 | Nikah kilat | |
+    | 离婚 | Cerai | |
+    | 出轨 | Selingkuh | |
+    | 绿茶 / Green tea | Pura-pura polos | Konotasi manipulatif; jangan diterjemahkan harfiah |
+    | 白莲花 / White lotus | Pura-pura suci | Konotasi serupa green tea |
   </TabItem>
 </Tabs>
-

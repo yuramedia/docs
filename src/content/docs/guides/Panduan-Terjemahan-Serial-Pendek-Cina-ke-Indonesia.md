@@ -3,44 +3,6 @@ title: Panduan Terjemahan Serial Pendek — Cina ke Indonesia
 description: Panduan lengkap lokalisasi serial pendek Tiongkok ke bahasa Indonesia, mencakup prinsip umum, terminologi, format subtitle, hingga kepatuhan hukum.
 ---
 
-## Daftar Isi
-
-- [Daftar Isi](#daftar-isi)
-- [1. Prinsip Umum](#1-prinsip-umum)
-- [2. Solusi Lokalisasi Terminologi](#2-solusi-lokalisasi-terminologi)
-  - [2.1 Nama \& Sebutan](#21-nama--sebutan)
-    - [Nama Umum](#nama-umum)
-    - [Panggilan \& Sapaan Umum](#panggilan--sapaan-umum)
-    - [Tokoh Terkenal (Selebriti, Tokoh Sejarah, dll.)](#tokoh-terkenal-selebriti-tokoh-sejarah-dll)
-    - [Tokoh Fiksi](#tokoh-fiksi)
-    - [Tokoh / Sebutan Sensitif](#tokoh--sebutan-sensitif)
-    - [Perbandingan Menggunakan Nama Tokoh](#perbandingan-menggunakan-nama-tokoh)
-    - [Jabatan / Gelar](#jabatan--gelar)
-  - [2.2 Nama Tempat \& Institusi](#22-nama-tempat--institusi)
-  - [2.3 Merek](#23-merek)
-  - [2.4 Judul Karya (Film, Game, Musik, Sastra)](#24-judul-karya-film-game-musik-sastra)
-  - [2.5 Mata Uang](#25-mata-uang)
-  - [2.6 Makanan \& Minuman](#26-makanan--minuman)
-  - [2.7 Adat \& Festival](#27-adat--festival)
-  - [2.8 Pengobatan Tradisional Tiongkok (TCM)](#28-pengobatan-tradisional-tiongkok-tcm)
-  - [2.9 Istilah Budaya Tiongkok Lainnya](#29-istilah-budaya-tiongkok-lainnya)
-  - [2.10 Senjata](#210-senjata)
-  - [2.11 Tingkatan Kultivasi / Xianxia](#211-tingkatan-kultivasi--xianxia)
-- [3. Panduan Format](#3-panduan-format)
-  - [Format Subtitle](#format-subtitle)
-  - [Tanda Baca \& Ejaan](#tanda-baca--ejaan)
-  - [Satuan Ukuran](#satuan-ukuran)
-- [4. Catatan Penting](#4-catatan-penting)
-  - [Penggunaan Kata Ganti yang Tepat](#penggunaan-kata-ganti-yang-tepat)
-- [5. Kepatuhan Hukum \& Regulasi](#5-kepatuhan-hukum--regulasi)
-  - [Hak Cipta](#hak-cipta)
-  - [Konten Melanggar Hukum](#konten-melanggar-hukum)
-- [6. Pertanyaan Umum \& Solusi](#6-pertanyaan-umum--solusi)
-  - [Q: Terjemahan terasa kaku dan tidak alami](#q-terjemahan-terasa-kaku-dan-tidak-alami)
-- [7. Contoh Terjemahan Terbaik](#7-contoh-terjemahan-terbaik)
-
----
-
 ## 1. Prinsip Umum
 
 | Prinsip | Penjelasan |
