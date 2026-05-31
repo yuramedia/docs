@@ -1,0 +1,29 @@
+/* Yuramedia Docs — custom theme overrides */
+
+:root {
+  --sl-color-accent-low:   #fef3e2;
+  --sl-color-accent:       #e07b12;
+  --sl-color-accent-high:  #7c3d06;
+}
+
+:root[data-theme="dark"] {
+  --sl-color-accent-low:   #3d1e00;
+  --sl-color-accent:       #f09130;
+  --sl-color-accent-high:  #fbbf6e;
+}
+
+/* Sedikit lebih lebar konten utama */
+.sl-markdown-content {
+  max-width: 72ch;
+}
+
+/* Tabel lebih rapi */
+.sl-markdown-content table {
+  font-size: 0.875rem;
+  display: block;
+  overflow-x: auto;
+}
+
+.sl-markdown-content th {
+  white-space: nowrap;
+}
