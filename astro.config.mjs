@@ -12,9 +12,9 @@ export default defineConfig({
 			title: "Yuramedia Docs",
 			description:
 				"Dokumentasi panduan lokalisasi dan terjemahan resmi Yuramedia Link.",
-			defaultLocale: "id",
+			defaultLocale: "root",
 			locales: {
-				id: { label: "Bahasa Indonesia", lang: "id" },
+				root: { label: "Bahasa Indonesia", lang: "id" },
 			},
 			logo: {
 				replacesTitle: true,
