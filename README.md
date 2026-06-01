@@ -1,49 +1,43 @@
-# Starlight Starter Kit: Basics
+# Yuramedia Docs
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+Dokumentasi resmi panduan lokalisasi dan terjemahan untuk tim **Yuramedia Link** — dibangun dengan [Astro Starlight](https://starlight.astro.build).
 
-```
-bun create astro@latest -- --template starlight
-```
+## 🚀 Menjalankan secara lokal
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro + Starlight project, you'll see the following folders and files:
-
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
+```bash
+bun install
+bun dev
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+Buka `http://localhost:4321` di browser.
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+## 📁 Struktur konten
 
-Static assets, like favicons, can be placed in the `public/` directory.
+```
+src/content/docs/
+├── guides/          # Panduan kerja (terjemahan, format, dll.)
+└── reference/       # Glosarium istilah dan sumber tambahan
+```
 
-## 🧞 Commands
+Setiap file `.md` atau `.mdx` di dalam folder tersebut otomatis menjadi halaman di situs.
 
-All commands are run from the root of the project, from a terminal:
+## ✍️ Berkontribusi
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `bun install`             | Installs dependencies                            |
-| `bun dev`             | Starts local dev server at `localhost:4321`      |
-| `bun build`           | Build your production site to `./dist/`          |
-| `bun preview`         | Preview your build locally, before deploying     |
-| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `bun astro -- --help` | Get help using the Astro CLI                     |
+Cara tercepat: klik **"Edit halaman ini"** di halaman mana saja untuk langsung mengedit via GitHub.
 
-## 👀 Want to learn more?
+Untuk kontribusi lebih besar, baca [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+## 🧞 Perintah
+
+| Perintah         | Aksi                                        |
+| :--------------- | :------------------------------------------ |
+| `bun install`    | Install dependencies                        |
+| `bun dev`        | Jalankan dev server di `localhost:4321`     |
+| `bun build`      | Build ke `./dist/`                          |
+| `bun preview`    | Preview hasil build secara lokal            |
+| `bun lint`       | Jalankan linter (Biome)                     |
+| `bun format`     | Format semua file                           |
+
+## 📄 Lisensi
+
+Lihat [LICENSE](./LICENSE).

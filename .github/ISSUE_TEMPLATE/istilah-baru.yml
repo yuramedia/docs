@@ -1,0 +1,38 @@
+name: Tambah istilah baru
+description: Usulkan istilah atau terjemahan baru ke glosarium
+labels: ["konten", "istilah"]
+body:
+  - type: input
+    id: istilah-asli
+    attributes:
+      label: Istilah asli
+      description: Tuliskan istilah dalam bahasa sumber (Mandarin / Inggris)
+      placeholder: "contoh: 掌门 / Zhangmen"
+    validations:
+      required: true
+  - type: input
+    id: terjemahan
+    attributes:
+      label: Terjemahan / lokalisasi yang diusulkan
+      placeholder: "contoh: Ketua perguruan"
+    validations:
+      required: true
+  - type: dropdown
+    id: genre
+    attributes:
+      label: Genre / tab yang sesuai
+      options:
+        - Istilah Umum
+        - Isekai
+        - Xianxia / Wuxia
+        - Romansa & Drama
+        - Historical / 古装剧
+        - Thriller
+        - Lainnya
+    validations:
+      required: true
+  - type: textarea
+    id: catatan
+    attributes:
+      label: Catatan tambahan
+      description: Konteks penggunaan, varian terjemahan, atau alasan pilihan kata

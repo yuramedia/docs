@@ -9,7 +9,13 @@ export default defineConfig({
 	site: "https://docs.yuramedia.com",
 	integrations: [
 		starlight({
-			title: "Docs",
+			title: "Yuramedia Docs",
+			description:
+				"Dokumentasi panduan lokalisasi dan terjemahan resmi Yuramedia Link.",
+			defaultLocale: "id",
+			locales: {
+				id: { label: "Bahasa Indonesia", lang: "id" },
+			},
 			logo: {
 				replacesTitle: true,
 				light: "./src/assets/logo.svg",
@@ -20,6 +26,7 @@ export default defineConfig({
 			editLink: {
 				baseUrl: "https://github.com/yuramedia/docs/edit/main/",
 			},
+			customCss: ["./src/styles/custom.css"],
 			social: [
 				{
 					icon: "github",
@@ -58,7 +65,7 @@ export default defineConfig({
 					items: [
 						{
 							label: "Memulai",
-							slug: "guides/example",
+							slug: "guides/memulai",
 						},
 						{
 							label: "Terjemahan Serial Pendek — Cina ke Indonesia",
@@ -68,7 +75,16 @@ export default defineConfig({
 				},
 				{
 					label: "Referensi",
-					autogenerate: { directory: "reference" },
+					items: [
+						{
+							label: "Panduan Lokalisasi Istilah",
+							slug: "reference/istilah",
+						},
+						{
+							label: "Sumber Tambahan",
+							slug: "reference/sumber-tambahan",
+						},
+					],
 				},
 			],
 			tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 3 },

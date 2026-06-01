@@ -1,0 +1,24 @@
+name: Laporan kesalahan konten
+description: Laporkan informasi yang salah, usang, atau ambigu di dokumentasi
+labels: ["bug", "konten"]
+body:
+  - type: input
+    id: halaman
+    attributes:
+      label: Halaman yang bermasalah
+      description: URL atau judul halaman
+      placeholder: "contoh: /guides/panduan-terjemahan-serial-pendek-cina-ke-indonesia/"
+    validations:
+      required: true
+  - type: textarea
+    id: masalah
+    attributes:
+      label: Apa yang salah?
+      description: Kutip bagian yang bermasalah dan jelaskan kesalahannya
+    validations:
+      required: true
+  - type: textarea
+    id: saran
+    attributes:
+      label: Saran perbaikan
+      description: Kalau ada, tuliskan versi yang lebih tepat
