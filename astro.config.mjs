@@ -71,6 +71,18 @@ export default defineConfig({
 							label: "Terjemahan Serial Pendek — Cina ke Indonesia",
 							slug: "guides/panduan-terjemahan-serial-pendek-cina-ke-indonesia",
 						},
+						{
+							label: "Terjemahan Historical / 古装剧",
+							slug: "guides/panduan-terjemahan-historical",
+						},
+						{
+							label: "Panduan Aegisub",
+							slug: "guides/panduan-aegisub",
+						},
+						{
+							label: "Panduan QC",
+							slug: "guides/panduan-qc",
+						},
 					],
 				},
 				{

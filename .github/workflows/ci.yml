@@ -26,3 +26,6 @@ jobs:
 
       - name: Type check (Astro)
         run: bun astro check
+
+      - name: Build
+        run: bun run build
