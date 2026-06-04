@@ -76,6 +76,14 @@ export default defineConfig({
 							slug: "guides/panduan-terjemahan-historical",
 						},
 						{
+							label: "Terjemahan Romansa & Drama",
+							slug: "guides/panduan-terjemahan-romansa",
+						},
+						{
+							label: "Terjemahan Thriller / Misteri",
+							slug: "guides/panduan-terjemahan-thriller",
+						},
+						{
 							label: "Panduan Aegisub",
 							slug: "guides/panduan-aegisub",
 						},
