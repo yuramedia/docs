@@ -219,18 +219,30 @@ Jangan selalu menjadikan Jakarta sebagai latar. Kota besar Indonesia lainnya sep
 ### 2.5 Mata Uang
 
 - **Mata uang nyata**: konversikan ke Rupiah Indonesia (IDR).
-  - 1 RMB (Yuan) ≈ **Rp 2.000**
-  - 1 USD ≈ **Rp 14.000**
 - **Mata uang fiksi**: terjemahkan ke bahasa Indonesia; saat pertama kali muncul, berikan keterangan bahwa itu adalah mata uang.
 - Tidak boleh mencampur angka Arab dan tulisan teks — pilih salah satu. Untuk nominal besar, disarankan menggunakan angka Arab.
 
-| Teks Asli | ✅ Benar | ❌ Salah | Catatan |
+:::caution[Kurs berubah — selalu cek sebelum mulai proyek]
+Nilai tukar di bawah adalah **patokan referensi**, bukan angka tetap. Kurs bergerak setiap hari dan bisa berselisih jauh dari angka ini dalam hitungan bulan.
+
+**Sebelum mulai mengerjakan proyek**, cek kurs terkini:
+- Ketik `1 RMB to IDR` atau `1 USD to IDR` di Google
+- Atau lihat kurs resmi di [Bank Indonesia — JISDOR](https://www.bi.go.id/id/statistik/informasi-kurs/jisdor/default.aspx)
+
+Gunakan kurs yang berlaku saat proyek dikerjakan, bukan angka yang tertulis di panduan ini. Koordinasikan dengan tim jika proyek memiliki nominal yang sangat besar atau sangat sensitif terhadap akurasi angka.
+:::
+
+**Patokan referensi (perlu diverifikasi ulang setiap proyek):**
+- 1 RMB (Yuan) ≈ Rp 2.000
+- 1 USD ≈ Rp 16.000
+
+| Teks Asli | ✅ Benar (ilustrasi) | ❌ Salah | Catatan |
 | --- | --- | --- | --- |
-| 1百万元 | dua miliar rupiah | satu juta RMB | 1 RMB ≈ Rp 2.000 |
-| 500万 | sepuluh miliar rupiah | lima ratus rupiah | 1 RMB ≈ Rp 2.000 |
-| 3颗魅力珍珠 | 3 butir mutiara ajaib | 3 mutiara | Mata uang fiksi |
-| $5000 | tujuh puluh juta rupiah | 5000 dolar | 1 USD ≈ Rp 14.000 |
-| 200 dollars | tiga juta rupiah | 3 juta rupiah | 1 USD ≈ Rp 14.000 |
+| 1百万元 | [nominal rupiah hasil konversi] | satu juta RMB | Hitung: 1.000.000 × kurs RMB/IDR saat ini |
+| 500万 | [nominal rupiah hasil konversi] | lima ratus rupiah | Hitung: 5.000.000 × kurs RMB/IDR saat ini |
+| 3颗魅力珍珠 | 3 butir mutiara ajaib | 3 mutiara | Mata uang fiksi — tidak dikonversi |
+| $5000 | [nominal rupiah hasil konversi] | 5000 dolar | Hitung: 5.000 × kurs USD/IDR saat ini |
+| 200 dollars | [nominal rupiah hasil konversi] | 3 juta rupiah | Hitung: 200 × kurs USD/IDR saat ini |
 
 ---
 
@@ -445,8 +457,28 @@ Game seperti *王者荣耀* (Honor of Kings), *英雄联盟* (League of Legends)
 
 ### Konten Melanggar Hukum
 
-Untuk standar penyuntingan konten yang aman, rujuk dokumen internal:  
-[Fizzo 短剧安全剪辑标准](https://bytedance.larkoffice.com/docx/J7Gkdd0P9ou3UNx6sUzcvMSBnSg)
+Standar penyuntingan konten aman untuk platform Fizzo diatur dalam dokumen internal tim. Dokumen tersebut memerlukan akses akun Lark (Bytedance) — tidak semua anggota memiliki akses langsung.
+
+:::note[Cara mengakses dokumen ini]
+**Jika kamu punya akses Lark:** buka [Fizzo 短剧安全剪辑标准](https://bytedance.larkoffice.com/docx/J7Gkdd0P9ou3UNx6sUzcvMSBnSg) langsung.
+
+**Jika tidak punya akses:** hubungi koordinator proyekmu. Mereka dapat membagikan versi yang relevan, atau menjawab pertanyaan spesifik tentang konten yang diragukan.
+
+Jangan tunda pengerjaan hanya karena tidak bisa membuka dokumen ini — panduan di bawah sudah merangkum poin-poin utamanya.
+:::
+
+**Ringkasan standar yang perlu diketahui semua penerjemah:**
+
+| Kategori | Yang perlu dilakukan |
+| --- | --- |
+| **Kekerasan & gore** | Deskripsikan kejadian tanpa detail grafis; hindari kata-kata yang mengglorifikasi kekerasan |
+| **Konten seksual** | Hapus atau netralkan dialog eksplisit; adegan intim cukup dideskripsikan secara implisit |
+| **SARA** | Hapus atau samarkan — lihat [Bagian 2.1.4](#tokoh--sebutan-sensitif) untuk panduan lengkapnya |
+| **Tokoh & simbol politik sensitif** | Hapus nama tokoh dan simbol yang berpotensi kontroversial di Indonesia |
+| **Hak cipta karya** | Samarkan atau ganti judul game/lagu/film yang muncul berulang — lihat [Bagian 5 — Hak Cipta](#hak-cipta) |
+| **Konten yang menargetkan anak-anak** | Tidak boleh ada konten dewasa dalam konteks yang melibatkan tokoh anak-anak |
+
+Jika menemukan konten yang meragukan dan tidak tercakup di atas, tandai dengan komentar di file subtitle dan eskalasikan ke koordinator sebelum mengirim hasil kerja.
 
 ---
 
