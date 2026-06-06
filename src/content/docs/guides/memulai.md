@@ -28,18 +28,26 @@ Setelah fondasi di atas, lanjutkan ke panduan yang sesuai dengan genre serial ya
 | **Historical / 古装剧** | [Panduan Terjemahan Historical](/guides/panduan-terjemahan-historical/) | Register bahasa formal dan hierarki sapaan |
 | **Romansa & Drama** | [Panduan Terjemahan Romansa & Drama](/guides/panduan-terjemahan-romansa/) | Register per fase hubungan dan tropes genre |
 | **Thriller / Misteri** | [Panduan Terjemahan Thriller / Misteri](/guides/panduan-terjemahan-thriller/) | Suara karakter dan menjaga ambiguitas plot |
+| **Xianxia / Wuxia** | [Panduan Terjemahan Xianxia / Wuxia](/guides/panduan-terjemahan-xianxia/) | Konsistensi sistem tingkatan dan tidak ada pinyin mentah |
+| **Isekai / Fantasi** | [Panduan Terjemahan Isekai / Fantasi](/guides/panduan-terjemahan-isekai/) | Istilah RPG diterjemahkan dan hierarki gelar bangsawan dijaga |
 
 :::tip[Tidak yakin genre proyekmu?]
 Tanya koordinatormu sebelum mulai. Genre menentukan banyak hal — dari cara penamaan tokoh hingga pilihan register bahasa.
 :::
 
+## Langkah 3 — Timing
+
+Setelah terjemahan selesai, timing dikerjakan sebelum file masuk QC. Koordinator akan memberitahu apakah timing dikerjakan sendiri atau oleh timer terpisah.
+
+Gunakan [Panduan Timing](/guides/panduan-timing/) untuk standar durasi, cara menangani scene change, dan checklist sebelum submit. Untuk penggunaan Aegisub saat timing, lihat [Panduan Aegisub](/guides/panduan-aegisub/).
+
 ---
 
-## Langkah 3 — Sebelum QC atau mengirim hasil kerja
+## Langkah 4 — Sebelum QC atau mengirim hasil kerja
 
 Gunakan [Panduan QC](/guides/panduan-qc/) untuk memeriksa file subtitle sebelum dikirim. Panduan QC berisi checklist terstruktur yang mencakup teknis, format, terjemahan, konsistensi, dan konten sensitif.
 
-Untuk memeriksa file di Aegisub, lihat [Panduan Aegisub](/guides/panduan-aegisub/).
+Untuk memastikan file `.ass` sudah dikonfigurasi dengan benar — encoding, Style, Script Info, dan penamaan file — lihat [Teknis & Encoding](/guides/panduan-teknis-encoding/).
 
 ---
 

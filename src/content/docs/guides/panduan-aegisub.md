@@ -237,4 +237,5 @@ Aegisub menyimpan dalam format `.ass` secara default. Jangan ubah ke format lain
 ## Lihat Juga
 
 - [Sumber Tambahan](/reference/sumber-tambahan/) — tautan ke Netflix Style Guide dan standar subtitle lainnya
+- [Teknis & Encoding](/guides/panduan-teknis-encoding/) — spesifikasi file .ass, encoding UTF-8, Script Info, Style, dan konvensi penamaan file
 - [Panduan Terjemahan Serial Pendek — Cina ke Indonesia](/guides/panduan-terjemahan-serial-pendek-cina-ke-indonesia/) — aturan teks dan lokalisasi
