@@ -182,4 +182,6 @@ Satu saja error di kategori **Konten Sensitif (S)** langsung naik ke Revisi Mayo
 
 - [Panduan Terjemahan Serial Pendek — Cina ke Indonesia](/guides/panduan-terjemahan-serial-pendek-cina-ke-indonesia/) — semua aturan yang dirujuk checklist ini
 - [Panduan Aegisub](/guides/panduan-aegisub/) — cara menggunakan tools untuk QC teknis
+- [Panduan Timing](/guides/panduan-timing/) — standar teknis timing yang dirujuk checklist T2–T5
+- [Teknis & Encoding](/guides/panduan-teknis-encoding/) — spesifikasi file .ass, encoding UTF-8, tag, dan penamaan file
 - [Panduan Lokalisasi Istilah](/reference/istilah/) — glosarium untuk cek konsistensi

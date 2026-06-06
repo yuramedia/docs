@@ -84,8 +84,24 @@ export default defineConfig({
 							slug: "guides/panduan-terjemahan-thriller",
 						},
 						{
+							label: "Terjemahan Xianxia / Wuxia",
+							slug: "guides/panduan-terjemahan-xianxia",
+						},
+						{
+							label: "Terjemahan Isekai / Fantasi",
+							slug: "guides/panduan-terjemahan-isekai",
+						},
+						{
+							label: "Panduan Timing",
+							slug: "guides/panduan-timing",
+						},
+						{
 							label: "Panduan Aegisub",
 							slug: "guides/panduan-aegisub",
+						},
+						{
+							label: "Teknis & Encoding",
+							slug: "guides/panduan-teknis-encoding",
 						},
 						{
 							label: "Panduan QC",
