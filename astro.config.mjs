@@ -62,65 +62,11 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: "Panduan",
-					items: [
-						{
-							label: "Memulai",
-							slug: "guides/memulai",
-						},
-						{
-							label: "Terjemahan Serial Pendek — Cina ke Indonesia",
-							slug: "guides/panduan-terjemahan-serial-pendek-cina-ke-indonesia",
-						},
-						{
-							label: "Terjemahan Historical / 古装剧",
-							slug: "guides/panduan-terjemahan-historical",
-						},
-						{
-							label: "Terjemahan Romansa & Drama",
-							slug: "guides/panduan-terjemahan-romansa",
-						},
-						{
-							label: "Terjemahan Thriller / Misteri",
-							slug: "guides/panduan-terjemahan-thriller",
-						},
-						{
-							label: "Terjemahan Xianxia / Wuxia",
-							slug: "guides/panduan-terjemahan-xianxia",
-						},
-						{
-							label: "Terjemahan Isekai / Fantasi",
-							slug: "guides/panduan-terjemahan-isekai",
-						},
-						{
-							label: "Panduan Timing",
-							slug: "guides/panduan-timing",
-						},
-						{
-							label: "Panduan Aegisub",
-							slug: "guides/panduan-aegisub",
-						},
-						{
-							label: "Teknis & Encoding",
-							slug: "guides/panduan-teknis-encoding",
-						},
-						{
-							label: "Panduan QC",
-							slug: "guides/panduan-qc",
-						},
-					],
+					autogenerate: { directory: "guides" },
 				},
 				{
 					label: "Referensi",
-					items: [
-						{
-							label: "Panduan Lokalisasi Istilah",
-							slug: "reference/istilah",
-						},
-						{
-							label: "Sumber Tambahan",
-							slug: "reference/sumber-tambahan",
-						},
-					],
+					autogenerate: { directory: "reference" },
 				},
 			],
 			tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 3 },

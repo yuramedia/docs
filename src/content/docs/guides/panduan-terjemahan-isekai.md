@@ -1,6 +1,8 @@
 ---
 title: Panduan Terjemahan — Isekai / Fantasi
 description: Panduan khusus lokalisasi serial isekai dan fantasi ke bahasa Indonesia, mencakup terminologi sistem RPG, gelar bangsawan fantasi, penamaan sihir dan kelas karakter, serta cara menangani notifikasi sistem dalam cerita.
+sidebar:
+  order: 7
 ---
 
 Panduan ini adalah pelengkap dari [Panduan Terjemahan Serial Pendek — Cina ke Indonesia](/guides/panduan-terjemahan-serial-pendek-cina-ke-indonesia/). Semua aturan umum di sana tetap berlaku. Halaman ini hanya membahas hal-hal yang **unik dan kritis untuk genre Isekai / Fantasi**.

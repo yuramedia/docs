@@ -1,6 +1,8 @@
 ---
 title: Memulai
 description: Panduan onboarding untuk penerjemah baru Yuramedia Link — urutan baca yang direkomendasikan dan panduan per genre.
+sidebar:
+  order: 1
 ---
 
 Selamat datang di dokumentasi resmi **Yuramedia Link**. Halaman ini memandu kamu ke dokumen yang tepat berdasarkan jenis proyek yang sedang dikerjakan.

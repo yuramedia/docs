@@ -1,6 +1,8 @@
 ---
 title: Panduan Terjemahan — Historical / 古装剧
 description: Panduan khusus lokalisasi drama kostum kerajaan Tiongkok ke bahasa Indonesia, mencakup penamaan tokoh era kuno, hierarki istana, register bahasa formal, dan idiom khas genre ini.
+sidebar:
+  order: 3
 ---
 
 Panduan ini adalah pelengkap dari [Panduan Terjemahan Serial Pendek — Cina ke Indonesia](/guides/panduan-terjemahan-serial-pendek-cina-ke-indonesia/). Semua aturan umum di sana tetap berlaku. Halaman ini hanya membahas hal-hal yang **unik dan kritis untuk genre Historical / 古装剧**.

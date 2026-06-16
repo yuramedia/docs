@@ -1,6 +1,8 @@
 ---
 title: Panduan Terjemahan — Xianxia / Wuxia
 description: Panduan khusus lokalisasi serial kultivasi dan dunia persilatan Tiongkok ke bahasa Indonesia, mencakup sistem tingkatan, penamaan tokoh perguruan, sapaan hierarki silat, terminologi jurus, dan idiom khas genre ini.
+sidebar:
+  order: 6
 ---
 
 Panduan ini adalah pelengkap dari [Panduan Terjemahan Serial Pendek — Cina ke Indonesia](/guides/panduan-terjemahan-serial-pendek-cina-ke-indonesia/). Semua aturan umum di sana tetap berlaku. Halaman ini hanya membahas hal-hal yang **unik dan kritis untuk genre Xianxia / Wuxia**.

@@ -1,6 +1,8 @@
 ---
 title: Panduan Terjemahan — Romansa & Drama
 description: Panduan khusus lokalisasi serial romansa dan drama modern Tiongkok ke bahasa Indonesia, mencakup dinamika hubungan, register bahasa per fase cerita, tropes genre, dan dialog emosi.
+sidebar:
+  order: 4
 ---
 
 Panduan ini adalah pelengkap dari [Panduan Terjemahan Serial Pendek — Cina ke Indonesia](/guides/panduan-terjemahan-serial-pendek-cina-ke-indonesia/). Semua aturan umum di sana tetap berlaku. Halaman ini hanya membahas hal-hal yang **unik dan kritis untuk genre Romansa & Drama**.

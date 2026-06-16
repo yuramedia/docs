@@ -1,6 +1,8 @@
 ---
 title: Panduan Terjemahan — Thriller / Misteri
 description: Panduan khusus lokalisasi serial thriller dan misteri Tiongkok ke bahasa Indonesia, mencakup terminologi investigasi, suara karakter, teknik membangun ketegangan, dan penanganan plot twist.
+sidebar:
+  order: 5
 ---
 
 Panduan ini adalah pelengkap dari [Panduan Terjemahan Serial Pendek — Cina ke Indonesia](/guides/panduan-terjemahan-serial-pendek-cina-ke-indonesia/). Semua aturan umum di sana tetap berlaku. Halaman ini hanya membahas hal-hal yang **unik dan kritis untuk genre Thriller / Misteri**.

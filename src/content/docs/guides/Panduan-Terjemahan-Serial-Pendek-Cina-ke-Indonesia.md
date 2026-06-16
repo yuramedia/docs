@@ -1,6 +1,8 @@
 ---
 title: Panduan Terjemahan Serial Pendek — Cina ke Indonesia
 description: Panduan lengkap lokalisasi serial pendek Tiongkok ke bahasa Indonesia, mencakup prinsip umum, terminologi, format subtitle, hingga kepatuhan hukum.
+sidebar:
+  order: 2
 ---
 
 ## 1. Prinsip Umum
