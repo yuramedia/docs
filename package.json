@@ -15,14 +15,14 @@
 		"format": "biome check --write ."
 	},
 	"dependencies": {
-		"@astrojs/sitemap": "^3.7.2",
-		"@astrojs/starlight": "^0.38.3",
-		"astro": "^6.1.5",
-		"sharp": "^0.34.5"
+		"@astrojs/sitemap": "^3.7.3",
+		"@astrojs/starlight": "^0.40.0",
+		"astro": "^6.4.8",
+		"sharp": "^0.35.2"
 	},
 	"devDependencies": {
-		"@astrojs/check": "^0.9.4",
-		"@biomejs/biome": "2.4.11",
-		"typescript": "^5.7.0"
+		"@astrojs/check": "^0.9.9",
+		"@biomejs/biome": "2.5.0",
+		"typescript": "^6.0.3"
 	}
 }
