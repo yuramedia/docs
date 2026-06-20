@@ -154,9 +154,8 @@ Hindari lebih dari dua baris dalam satu subtitle. Tiga baris ke atas akan menutu
 | `{\pos(x,y)}` | Posisi kustom | Menempatkan subtitle di koordinat tertentu |
 
 Contoh penggunaan italic untuk suara hati:
-```
-{\i1}(Semoga dia baik-baik saja.){\i0}
-```
+- **Drama China (Dracin)**: `{\i1}(Semoga dia baik-baik saja.){\i0}` (menggunakan kurung)
+- **Proyek Lain**: `{\i1}Semoga dia baik-baik saja.{\i0}` (tanpa kurung)
 
 ---
 

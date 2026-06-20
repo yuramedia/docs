@@ -87,7 +87,7 @@ Merujuk ke [Panduan Format → Format Subtitle](/guides/panduan-terjemahan-seria
 | F4 | Dialog dua orang: `-` di awal setiap baris | `-Kamu ke mana?` / `-Mall` |
 | F5 | Lirik lagu menggunakan `♪` di awal dan akhir | `♪ Rasa sayang ♪` |
 | F6 | Teks layar / keterangan menggunakan `(…)` | `(Setelah 3 tahun)` |
-| F7 | Narasi / suara hati menggunakan `(…)` + italic | `{\i1}(Semoga dia baik-baik saja.){\i0}` |
+| F7 | Narasi / suara hati | **Dracin:** `(…)` + italic (`{\i1}(Semoga...){\i0}`) / **Proyek lain:** italic saja (`{\i1}Semoga...{\i0}`) |
 | F8 | Tanda baca Indonesia, bukan Mandarin | Tidak ada `。`, `，`, `！`, `？` |
 | F9 | Satuan sudah dikonversi ke satuan Indonesia | `9 kg` bukan `18 斤`, `1.000 km` bukan `1000 公里` |
 | F10 | Desimal menggunakan koma, ribuan menggunakan titik | `1,7 meter`, `Rp 16.000.000` |

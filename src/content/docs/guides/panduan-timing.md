@@ -198,10 +198,15 @@ Jika lirik overlap (penyanyi masih menyanyikan baris pertama saat baris kedua su
 
 Narasi biasanya lebih lambat dari dialog. Berikan durasi yang lebih panjang dari biasanya — pembicara tidak terlihat di layar, sehingga penonton sepenuhnya bergantung pada subtitle.
 
-Gunakan tag italic sesuai format:
-```
-{\\i1}(Saat itu aku baru mengerti, mengapa dia pergi.){\\i0}
-```
+Gunakan format sesuai proyek:
+- **Drama China (Dracin)** (menggunakan kurung + italic):
+  ```
+  {\\i1}(Saat itu aku baru mengerti, mengapa dia pergi.){\\i0}
+  ```
+- **Proyek Lain** (menggunakan italic saja):
+  ```
+  {\\i1}Saat itu aku baru mengerti, mengapa dia pergi.{\\i0}
+  ```
 
 ### Teks layar dan keterangan
 
@@ -209,11 +214,15 @@ Keterangan seperti `(Tiga tahun kemudian)` atau nama tempat `(Jakarta, 2019)` ya
 
 ### Subtitle untuk suara latar
 
-Suara latar (suara TV, radio, atau panggilan telepon yang terdengar samar) diberi timing sesuai durasi suara terdengar. Gunakan kurung untuk membedakan dari dialog utama:
-
-```
-(Suara TV: "...korban ditemukan di...")
-```
+Suara latar (suara TV, radio, atau panggilan telepon yang terdengar samar) diberi timing sesuai durasi suara terdengar. Gunakan format sesuai proyek untuk membedakan dari dialog utama:
+- **Drama China (Dracin)** (menggunakan kurung):
+  ```
+  (Suara TV: "...korban ditemukan di...")
+  ```
+- **Proyek Lain** (menggunakan italic saja):
+  ```
+  {\\i1}Suara TV: "...korban ditemukan di..."{\\i0}
+  ```
 
 ---
 
