@@ -62,11 +62,11 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: "Panduan",
-					autogenerate: { directory: "guides" },
+					items: [{ autogenerate: { directory: "guides" } }],
 				},
 				{
 					label: "Referensi",
-					autogenerate: { directory: "reference" },
+					items: [{ autogenerate: { directory: "reference" } }],
 				},
 			],
 			tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 3 },
