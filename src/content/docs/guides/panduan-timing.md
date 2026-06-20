@@ -210,7 +210,17 @@ Gunakan format sesuai proyek:
 
 ### Teks layar dan keterangan
 
-Keterangan seperti `(Tiga tahun kemudian)` atau nama tempat `(Jakarta, 2019)` yang muncul di layar harus ditiming sesuai durasi teks tersebut tampil secara visual — bukan berdasarkan dialog.
+Keterangan yang muncul di layar (teks layar/onscreen text) harus ditiming sesuai durasi teks tersebut tampil secara visual — bukan berdasarkan dialog. Gunakan format sesuai proyek:
+- **Proyek Mighty/Dracin** (menggunakan kurung biasa):
+  ```
+  (Tiga tahun kemudian)
+  (Jakarta, 2019)
+  ```
+- **Proyek Netflix, CR (Crunchyroll), dan lainnya** (menggunakan *Forced Narrative* / ALL CAPS):
+  ```
+  TIGA TAHUN KEMUDIAN
+  JAKARTA, 2019
+  ```
 
 ### Subtitle untuk suara latar
 
