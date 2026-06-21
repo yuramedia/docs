@@ -174,7 +174,7 @@ Notifikasi sistem biasanya diformat dalam huruf kapital atau dicetak tebal untuk
 | Teks Asli | Terjemahan | Catatan |
 | --- | --- | --- |
 | Magical Girl | Puan Syaman | Untuk serial fantasi bertema gadis sihir |
-| Soul Gem | Atma / Adiratna | Sumber kekuatan jiwa |
+| Soul Gem | Atma Adiratna | Sumber kekuatan jiwa |
 | Grief Seed | Benih Nestapa | Elemen negatif / korupsi |
 | Prototype | Purwarupa | |
 | Ruler | Adhikara | Makna: yang berkuasa penuh |
