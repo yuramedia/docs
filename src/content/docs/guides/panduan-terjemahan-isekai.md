@@ -90,6 +90,12 @@ Ini adalah bagian yang paling unik dari genre isekai dan yang paling sering dita
 | Debuff | Pelemah | |
 | Respawn | Bangkit Kembali / Hidup Kembali | |
 | Game Over | Tamat / Permainan Berakhir | |
+| Dungeon | Labirin | |
+| Party | Kelompok / Regu | Kelompok petualang |
+| Guild | Serikat / Gilda | |
+| Guild Master | Ketua Serikat / Kepala Gilda | |
+| Magic Beast / Monster | Binatang Setan / Siluman / Monster | |
+| Artifact | Artefak / Pusaka | |
 
 ### Notifikasi Sistem — Pola Penulisan
 
