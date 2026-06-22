@@ -29,6 +29,10 @@ Kedua hal ini langsung merusak chemistry dan ritme emosi cerita.
 
 ## 2. Penamaan Tokoh
 
+:::important[Lokalisasi nama hanya untuk Proyek Dracin/Mighty]
+Pelokalan/penerjemahan nama karakter menjadi nama Indonesia (seperti Delia, Rara, Rivan, Dimas) **hanya dilakukan pada proyek Drama China (Dracin) atau proyek Mighty**. Untuk proyek lainnya (seperti drama Korea, serial Barat, game, atau proyek non-dracin/mighty lainnya), **nama tokoh harus tetap menggunakan nama aslinya** (tidak dilokalkan).
+:::
+
 Lihat aturan umum nama di [Panduan Utama — Bagian 2.1](/guides/panduan-terjemahan-serial-pendek-cina-ke-indonesia/#21-nama--sebutan). Aturan di bawah ini adalah **tambahan khusus** untuk setting modern genre romansa.
 
 ### Tokoh Utama
