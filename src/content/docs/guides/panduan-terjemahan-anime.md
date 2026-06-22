@@ -39,8 +39,8 @@ Berikut adalah standar penulisan dan lokalisasi yang wajib diikuti oleh semua pe
   4. **Narator** atau suara narasi.
 
 ### Teks Layar / Sign (On-Screen Text)
-* **Gunakan Capslock SIGN**: Jika ada teks layar, keterangan visual, papan tanda, atau *on-screen text*, tulis terjemahannya diawali dengan kata **SIGN** menggunakan huruf kapital (capslock).
-* *Contoh*: `SIGN: SEKOLAH MENENGAH ATAS` atau `SIGN: TIGA TAHUN KEMUDIAN`.
+* **Gunakan Huruf Kapital (Capslock)**: Jika ada teks layar, keterangan visual, papan tanda, atau *on-screen text*, tulis terjemahannya langsung menggunakan huruf kapital (capslock).
+* *Contoh*: `SEKOLAH MENENGAH ATAS` atau `TIGA TAHUN KEMUDIAN`.
 
 ---
 
@@ -76,7 +76,7 @@ Untuk menjaga kualitas terjemahan, kata-kata dan cara penulisan interjeksi/ad-li
 | **Hmm** | Dilarang digunakan |
 | **Dan** (di awal kalimat) | Hindari memulai kalimat dengan kata "Dan". Jika diperlukan, ganti dengan **Lalu**, **Juga**, atau hapus jika konteksnya sudah jelas tanpa kata hubung tersebut. |
 | **Nah** / **Yah** | Hindari penggunaan interjeksi seperti "nah" atau "yah". Untuk interjeksi **oh**, diperbolehkan digunakan sesekali tergantung pada konteks adegan. |
-| **Eh**, **Ah**, **Wah** (secara harfiah) | **Dilarang menuliskan interjeksi/ad-lib secara harfiah** jika bisa diterjemahkan maknanya. Gantilah dengan kata yang memiliki arti kontekstual:<br>• **Eh** $\rightarrow$ ganti menjadi **Apa?** / **Hah?** / **Oh iya, ...**<br>• **Ah** $\rightarrow$ ganti menjadi **Apa!** / **Aduh!**<br>• **Wah** $\rightarrow$ ganti menjadi **Bagus!** / **Hebat!** |
+| **Eh**, **Ah**, **Wah** (secara harfiah) | **Dilarang menuliskan interjeksi/ad-lib secara harfiah** jika bisa diterjemahkan maknanya. Gantilah dengan kata yang memiliki arti kontekstual:<br>• **Eh** → ganti menjadi **Apa?** / **Hah?** / **Oh iya, ...**<br>• **Ah** → ganti menjadi **Apa!** / **Aduh!**<br>• **Wah** → ganti menjadi **Bagus!** / **Hebat!** |
 | **Eng...** / **E-tto...** | **Dilarang** menuliskan suara ragu Jepang secara harfiah (seperti `Eng...`). Terjemahkan maknanya secara kontekstual, misalnya menjadi **Sebenarnya...** atau **Umm...** |
 
 ---
@@ -112,6 +112,6 @@ Gunakan format penamaan berkas subtitle berikut secara konsisten:
 * *Contoh (Malaysia)*: `In The Clear Moonlit Dusk S1E08_ms_Translation`
 
 ### Quality Assurance (QA)
-* **Format**: `[Judul Anime dalam Bahasa Inggris] S[Season]E[Episode]_[id or ms]`
+* **Format**: `[Judul Anime dalam Bahasa Inggris] S[Season]E[Episode]_[id atau ms]`
 * *Contoh (Indonesia)*: `In The Clear Moonlit Dusk S1E08_id`
 * *Contoh (Malaysia)*: `In The Clear Moonlit Dusk S1E08_ms`
