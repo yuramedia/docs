@@ -1,11 +1,11 @@
 ---
 title: Panduan Terjemahan — Anime Jepang
-description: Pedoman lokalisasi dan standardisasi terjemahan anime Jepang ke bahasa Indonesia dan Malaysia.
+description: Pedoman lokalisasi, timing, dan standardisasi terjemahan anime Jepang ke bahasa Indonesia dan Malaysia.
 sidebar:
   order: 8
 ---
 
-Panduan ini berisi pedoman penerjemahan, aturan format khusus, larangan penggunaan kata tertentu, penamaan berkas subtitle, dan pedoman lokalisasi untuk wilayah Malaysia dalam proyek Anime Jepang.
+Panduan ini berisi pedoman penerjemahan, aturan format khusus, pedoman timing & durasi baca, larangan penggunaan kata tertentu, penamaan berkas subtitle, dan pedoman lokalisasi untuk wilayah Malaysia dalam proyek Anime Jepang.
 
 ---
 
@@ -29,20 +29,46 @@ Berikut adalah standar penulisan dan lokalisasi yang wajib diikuti oleh semua pe
 * **Penulisan Angka**:
   * Angka **1 s.d. 10** wajib ditulis menggunakan kata (satu, dua, tiga, empat, lima, enam, tujuh, delapan, sembilan, sepuluh), bukan angka numerik.
 
-### Penggunaan Italic (Miring)
-Gunakan format miring (*italic* / tag `{\i1}...{\i0}`) untuk kondisi berikut:
-1. Adegan **Kilas Balik** (*flashback*).
-2. Suara yang berasal dari **telepon, TV, radio, speaker, atau perangkat elektronik lainnya**.
-3. **Suara Hati** atau pikiran batin tokoh (*inner thoughts*).
-4. **Narasi** (*voice over*).
+### Penggunaan Italic (Miring) & Format Tag
+* **Gunakan Tag Aegisub**: Wajib menggunakan tag Aegisub `{\i1}` untuk membuka dan `{\i0}` untuk menutup pemformatan miring (*italic*).
+* **DILARANG menggunakan tag HTML** seperti `<i>` dan `</i>`.
+* Terapkan miring untuk kondisi berikut:
+  1. Adegan **Kilas Balik** (*flashback*) — terutama jika suaranya bergema.
+  2. Suara karakter yang berasal dari **telepon, TV, radio, speaker, atau perangkat elektronik lainnya**.
+  3. **Suara Hati** atau pikiran batin tokoh (*inner thoughts*).
+  4. **Narator** atau suara narasi.
+
+### Teks Layar / Sign (On-Screen Text)
+* **Gunakan Capslock SIGN**: Jika ada teks layar, keterangan visual, papan tanda, atau *on-screen text*, tulis terjemahannya diawali dengan kata **SIGN** menggunakan huruf kapital (capslock).
+* *Contoh*: `SIGN: SEKOLAH MENENGAH ATAS` atau `SIGN: TIGA TAHUN KEMUDIAN`.
 
 ---
 
-## 2. Kata-Kata yang Dilarang
+## 2. Pedoman Timing & Durasi Baca
 
-Untuk menjaga kualitas dan kesesuaian terjemahan, kata-kata berikut **tidak boleh digunakan**:
+Penerjemah dan timer wajib mengikuti aturan timing berikut untuk memastikan kenyamanan membaca penonton:
 
-| Kata | Ketentuan & Solusi |
+### Timing di Aegisub
+* **Buffer Awal & Akhir**:
+  * **Start Timing**: Berikan jarak **3-5 frame** sebelum dialog dimulai. Jangan terlalu mepet (teks baru muncul tepat saat suara dialog mulai terdengar).
+  * **End Timing**: Berikan juga jarak **3-5 frame (atau sekitar 5 frame)** setelah dialog selesai agar teks tidak tiba-tiba hilang.
+* **Jeda Antarsubtitle (Gap)**:
+  * Wajib memberikan jarak **2 frame gap** antar baris subtitle.
+  * Hal ini bisa diatur menggunakan aplikasi **Subtitle Edit** saat menyimpan file dalam format `.srt` / `.ass`.
+  * **Alternatif (Aegisub)**: Anda bisa menggunakan ekstensi Aegisub Frame Gap yang tersedia di [pololer-Aegisub-Scripts](https://github.com/Aruh1/pololer-Aegisub-Scripts).
+
+### Durasi Baca (Reading Duration)
+* **Minimal 1.000 ms**: Semua penerjemah wajib menyesuaikan durasi tayang subtitle agar memiliki durasi baca yang cukup bagi penonton, yaitu **minimal sekitar 1.000 ms (1 detik)** per baris.
+* **Pengecualian**: Aturan durasi minimal 1.000 ms ini dikecualikan untuk teks layar / *on-screen text* / *sign*.
+* *Penting*: Jika durasi terlalu pendek (di bawah 1.000 ms), penonton tidak akan sempat membaca teks tersebut secara utuh, yang dapat mengurangi dampak dari kerja keras tim penerjemah.
+
+---
+
+## 3. Kata-Kata & Interjeksi yang Dilarang
+
+Untuk menjaga kualitas terjemahan, kata-kata dan cara penulisan interjeksi/ad-lib berikut **tidak boleh digunakan**:
+
+| Kata / Gaya Penulisan | Ketentuan & Solusi |
 | --- | --- |
 | **Bro** | Dilarang digunakan |
 | **Trims** | Dilarang, gunakan **Terima kasih** |
@@ -50,10 +76,12 @@ Untuk menjaga kualitas dan kesesuaian terjemahan, kata-kata berikut **tidak bole
 | **Hmm** | Dilarang digunakan |
 | **Dan** (di awal kalimat) | Hindari memulai kalimat dengan kata "Dan". Jika diperlukan, ganti dengan **Lalu**, **Juga**, atau hapus jika konteksnya sudah jelas tanpa kata hubung tersebut. |
 | **Nah** / **Yah** | Hindari penggunaan interjeksi seperti "nah" atau "yah". Untuk interjeksi **oh**, diperbolehkan digunakan sesekali tergantung pada konteks adegan. |
+| **Eh**, **Ah**, **Wah** (secara harfiah) | **Dilarang menuliskan interjeksi/ad-lib secara harfiah** jika bisa diterjemahkan maknanya. Gantilah dengan kata yang memiliki arti kontekstual:<br>• **Eh** $\rightarrow$ ganti menjadi **Apa?** / **Hah?** / **Oh iya, ...**<br>• **Ah** $\rightarrow$ ganti menjadi **Apa!** / **Aduh!**<br>• **Wah** $\rightarrow$ ganti menjadi **Bagus!** / **Hebat!** |
+| **Eng...** / **E-tto...** | **Dilarang** menuliskan suara ragu Jepang secara harfiah (seperti `Eng...`). Terjemahkan maknanya secara kontekstual, misalnya menjadi **Sebenarnya...** atau **Umm...** |
 
 ---
 
-## 3. Standardisasi Lokalisasi Malaysia (ms)
+## 4. Standardisasi Lokalisasi Malaysia (ms)
 
 Untuk proyek lokalisasi ke bahasa Malaysia, wajib melakukan penyesuaian padanan kata berikut:
 
@@ -70,7 +98,7 @@ Untuk proyek lokalisasi ke bahasa Malaysia, wajib melakukan penyesuaian padanan 
 
 ---
 
-## 4. Format Penamaan Berkas Subtitle
+## 5. Format Penamaan Berkas Subtitle
 
 Gunakan format penamaan berkas subtitle berikut secara konsisten:
 
@@ -84,6 +112,6 @@ Gunakan format penamaan berkas subtitle berikut secara konsisten:
 * *Contoh (Malaysia)*: `In The Clear Moonlit Dusk S1E08_ms_Translation`
 
 ### Quality Assurance (QA)
-* **Format**: `[Judul Anime dalam Bahasa Inggris] S[Season]E[Episode]_[id atau ms]`
+* **Format**: `[Judul Anime dalam Bahasa Inggris] S[Season]E[Episode]_[id or ms]`
 * *Contoh (Indonesia)*: `In The Clear Moonlit Dusk S1E08_id`
 * *Contoh (Malaysia)*: `In The Clear Moonlit Dusk S1E08_ms`
