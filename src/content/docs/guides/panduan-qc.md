@@ -2,7 +2,7 @@
 title: Panduan Quality Control (QC)
 description: Panduan proses review subtitle sebelum rilis — mencakup alur kerja QC, checklist lengkap, cara memberi catatan, dan kriteria kelulusan.
 sidebar:
-  order: 11
+  order: 12
 ---
 
 QC (*Quality Control*) adalah tahap review akhir sebelum subtitle dikirim atau diterbitkan. Tujuannya adalah menangkap error yang lolos dari proses penerjemahan — baik teknis maupun konten — sehingga penonton tidak menemukan masalah di hasil akhir.

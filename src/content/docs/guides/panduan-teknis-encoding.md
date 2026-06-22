@@ -2,7 +2,7 @@
 title: Panduan Teknis & Encoding
 description: Panduan teknis file subtitle di Yuramedia Link — encoding UTF-8, pengaturan Script Info dan Style .ass, tag format, konvensi penamaan file, dan troubleshooting masalah teknis umum.
 sidebar:
-  order: 10
+  order: 11
 ---
 
 Panduan ini mencakup spesifikasi teknis file subtitle yang digunakan di Yuramedia Link: encoding karakter, pengaturan style, tag format, dan konvensi pengiriman file. Isi panduan ini bersifat teknis — bukan tentang isi terjemahan, melainkan tentang **file itu sendiri**.

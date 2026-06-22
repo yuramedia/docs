@@ -2,7 +2,7 @@
 title: Panduan Timing Subtitle
 description: Panduan teknis proses timing subtitle di Yuramedia Link — standar durasi dan jeda, cara membaca scene change, kecepatan baca, penanganan kasus khusus, dan checklist sebelum submit.
 sidebar:
-  order: 8
+  order: 9
 ---
 
 Timing adalah proses menentukan kapan setiap baris subtitle muncul dan menghilang di layar, selaras dengan audio dan potongan gambar. Tujuannya bukan sekadar "subtitle terlihat" — melainkan penonton bisa membaca dengan nyaman tanpa harus berhenti menikmati visual.

@@ -2,7 +2,7 @@
 title: Panduan Penggunaan Aegisub
 description: Panduan praktis menggunakan Aegisub untuk mengedit, timing, dan mengekspor subtitle dalam alur kerja lokalisasi Yuramedia Link.
 sidebar:
-  order: 9
+  order: 10
 ---
 
 Aegisub adalah software editor subtitle utama yang digunakan di Yuramedia Link. Halaman ini mencakup instalasi, pengenalan antarmuka, alur kerja dasar, hingga referensi shortcut.
