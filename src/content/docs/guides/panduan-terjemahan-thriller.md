@@ -29,7 +29,7 @@ Kedua hal ini merusak pengalaman menonton sebelum cerita sendiri sampai ke sana.
 
 ## 2. Penamaan Tokoh
 
-:::important[Lokalisasi nama hanya untuk Proyek Dracin/Mighty]
+:::note[Lokalisasi nama hanya untuk Proyek Dracin/Mighty]
 Pelokalan/penerjemahan nama karakter menjadi nama Indonesia (seperti Rendra Kusuma, Bagas Wibowo, Hendra Wijaya) **hanya dilakukan pada proyek Drama China (Dracin) atau proyek Mighty**. Untuk proyek lainnya (seperti drama Korea, serial Barat, game, atau proyek non-dracin/mighty lainnya), **nama tokoh harus tetap menggunakan nama aslinya** (tidak dilokalkan).
 :::
 

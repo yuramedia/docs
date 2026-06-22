@@ -29,7 +29,7 @@ Kedua hal ini langsung merusak kredibilitas terjemahan dan pengalaman menonton.
 
 ## 2. Penamaan Tokoh
 
-:::important[Lokalisasi nama hanya untuk Proyek Dracin/Mighty]
+:::note[Lokalisasi nama hanya untuk Proyek Dracin/Mighty]
 Pelokalan/penerjemahan nama karakter menjadi nama Indonesia (seperti Bima, Arjuna, Surya) **hanya dilakukan pada proyek Drama China (Dracin) atau proyek Mighty**. Untuk proyek lainnya (seperti donghua, drama Korea, game, atau proyek non-dracin/mighty lainnya), **nama tokoh harus tetap menggunakan nama aslinya** (tidak dilokalkan).
 :::
 
