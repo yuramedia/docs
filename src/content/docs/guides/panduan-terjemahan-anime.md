@@ -77,7 +77,7 @@ Untuk menjaga kualitas terjemahan, kata-kata dan cara penulisan interjeksi/ad-li
 | **Dan** (di awal kalimat) | Hindari memulai kalimat dengan kata "Dan". Jika diperlukan, ganti dengan **Lalu**, **Juga**, atau hapus jika konteksnya sudah jelas tanpa kata hubung tersebut. |
 | **Nah** / **Yah** | Hindari penggunaan interjeksi seperti "nah" atau "yah". Untuk interjeksi **oh**, diperbolehkan digunakan sesekali tergantung pada konteks adegan. |
 | **Eh**, **Ah**, **Wah** (secara harfiah) | **Dilarang menuliskan interjeksi/ad-lib secara harfiah** jika bisa diterjemahkan maknanya. Gantilah dengan kata yang memiliki arti kontekstual:<br>• **Eh** → ganti menjadi **Apa?** / **Hah?** / **Oh iya, ...**<br>• **Ah** → ganti menjadi **Apa!** / **Aduh!**<br>• **Wah** → ganti menjadi **Bagus!** / **Hebat!** |
-| **Eng...** / **E-tto...** | **Dilarang** menuliskan suara ragu Jepang secara harfiah (seperti `Eng...`). Terjemahkan maknanya secara kontekstual, misalnya menjadi **Sebenarnya...** atau **Umm...** |
+| **Eng...** / **E-tto...** | **Dilarang** menuliskan suara ragu Jepang secara harfiah (seperti `Eng...`). Terjemahkan maknanya secara kontekstual, misalnya menjadi **Sebenarnya...** |
 
 ---
 
