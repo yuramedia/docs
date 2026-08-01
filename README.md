@@ -1,6 +1,6 @@
 # Yuramedia Docs
 
-Dokumentasi resmi panduan lokalisasi dan terjemahan untuk tim **Yuramedia Link** — dibangun dengan [Astro Starlight](https://starlight.astro.build).
+Dokumentasi resmi panduan lokalisasi dan terjemahan untuk tim **Yuramedia Link** — dibangun dengan [Fumadocs](https://www.fumadocs.dev) dan Astro.
 
 ## 🚀 Menjalankan secara lokal
 
@@ -29,14 +29,14 @@ Untuk kontribusi lebih besar, baca [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## 🧞 Perintah
 
-| Perintah         | Aksi                                        |
-| :--------------- | :------------------------------------------ |
-| `bun install`    | Install dependencies                        |
-| `bun dev`        | Jalankan dev server di `localhost:4321`     |
-| `bun build`      | Build ke `./dist/`                          |
-| `bun preview`    | Preview hasil build secara lokal            |
-| `bun lint`       | Jalankan linter (Biome)                     |
-| `bun format`     | Format semua file                           |
+| Perintah      | Aksi                                    |
+| :------------ | :-------------------------------------- |
+| `bun install` | Install dependencies                    |
+| `bun dev`     | Jalankan dev server di `localhost:4321` |
+| `bun build`   | Build ke `./dist/`                      |
+| `bun preview` | Preview hasil build secara lokal        |
+| `bun lint`    | Jalankan linter (oxlint)                |
+| `bun format`  | Format semua file                       |
 
 ## 📄 Lisensi
 

@@ -13,7 +13,7 @@ Jika ingin perubahan yang lebih besar:
 1. Fork repositori ini.
 2. Buat branch baru: `git checkout -b tambah-istilah-baru`
 3. Lakukan perubahan pada file di `src/content/docs/`.
-4. Push dan buat *pull request* ke branch `main`.
+4. Push dan buat _pull request_ ke branch `main`.
 
 ## Menambah istilah baru
 
