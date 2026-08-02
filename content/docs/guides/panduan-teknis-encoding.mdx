@@ -7,9 +7,11 @@ sidebar:
 
 Panduan ini mencakup spesifikasi teknis file subtitle yang digunakan di Yuramedia Link: encoding karakter, pengaturan style, tag format, dan konvensi pengiriman file. Isi panduan ini bersifat teknis — bukan tentang isi terjemahan, melainkan tentang **file itu sendiri**.
 
-:::note[Panduan ini melengkapi, bukan menggantikan]
+<Callout type="info" title="Panduan ini melengkapi, bukan menggantikan">
+
 [Panduan Aegisub](/guides/panduan-aegisub/) membahas cara menggunakan software. Panduan ini membahas **standar teknis** yang harus dipenuhi file yang dihasilkan oleh Aegisub. Baca keduanya.
-:::
+
+</Callout>
 
 ---
 
@@ -69,9 +71,11 @@ Jika perlu memverifikasi encoding di luar Aegisub:
 3. Simpan file.
 4. Buka kembali di Aegisub dan periksa apakah karakter sudah tampil benar.
 
-:::caution[Jangan "Convert to UTF-8" tanpa membaca isinya dulu]
+<Callout type="warn" title="Jangan &quot;Convert to UTF-8&quot; tanpa membaca isinya dulu">
+
 Beberapa editor mengonversi encoding tanpa memperbaiki karakter yang sudah rusak. Periksa teks di sekitar karakter bermasalah sebelum dan sesudah konversi.
-:::
+
+</Callout>
 
 ---
 
@@ -112,9 +116,11 @@ Resolusi di Script Info **bukan resolusi video asli** — ini adalah resolusi re
 | Landscape Full HD (16:9)               | 1920     | 1080     |
 | Portrait (9:16) — serial pendek mobile | 1080     | 1920     |
 
-:::caution[Konfirmasi resolusi dengan koordinator]
+<Callout type="warn" title="Konfirmasi resolusi dengan koordinator">
+
 Serial pendek Tiongkok untuk platform mobile sering menggunakan format portrait (9:16). Pastikan PlayResX/Y sudah dikonfirmasi ke koordinator sebelum mulai — mengubah resolusi di tengah proyek akan menggeser posisi semua subtitle.
-:::
+
+</Callout>
 
 ### Cara memeriksa dan mengubah Script Info di Aegisub
 
@@ -220,9 +226,11 @@ Tag ditulis di dalam kurung kurawal `{}` sebelum teks yang dipengaruhi. Tag yang
 | `{\fs60}`    | Ukuran font kustom           | `{\fs40}` = lebih kecil |
 | `{\fn nama}` | Font kustom untuk satu baris | `{\fnArial}`            |
 
-:::caution[Gunakan tag hanya jika diperlukan]
+<Callout type="warn" title="Gunakan tag hanya jika diperlukan">
+
 Tag yang berlebihan membuat file susah dibaca dan diedit. Gunakan tag hanya untuk pengecualian dari style default — bukan sebagai cara mendekorasi teks. Jika satu baris harus selalu italic, ubah di Style Manager, bukan dengan menambahkan `{\i1}` di setiap baris.
-:::
+
+</Callout>
 
 ### Contoh penggunaan tag yang benar
 
@@ -268,9 +276,11 @@ BSK_EP03_RD_qc.ass           ← dikirim ke QC
 BSK_EP03_RD_final.ass        ← file siap rilis
 ```
 
-:::note[Ikuti instruksi koordinator jika berbeda]
+<Callout type="info" title="Ikuti instruksi koordinator jika berbeda">
+
 Koordinator proyek mungkin memiliki pola penamaan spesifik untuk platformnya. Ikuti instruksi yang diberikan — panduan ini hanya standar default jika tidak ada ketentuan lain.
-:::
+
+</Callout>
 
 ### Yang harus dihindari dalam nama file
 

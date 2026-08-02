@@ -1,0 +1,17 @@
+{
+    "MD013": false,
+    "MD033": {
+        "allowed_elements": [
+            "Callout",
+            "Cards",
+            "Card",
+            "Steps",
+            "Step",
+            "include",
+            "Tab",
+            "Tabs",
+            "Accordion",
+            "Accordions"
+        ]
+    }
+}

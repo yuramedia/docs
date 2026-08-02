@@ -7,9 +7,11 @@ sidebar:
 
 QC (_Quality Control_) adalah tahap review akhir sebelum subtitle dikirim atau diterbitkan. Tujuannya adalah menangkap error yang lolos dari proses penerjemahan — baik teknis maupun konten — sehingga penonton tidak menemukan masalah di hasil akhir.
 
-:::caution[QC bukan tugas penerjemah]
+<Callout type="warn" title="QC bukan tugas penerjemah">
+
 QC idealnya dilakukan oleh orang yang berbeda dari penerjemah file tersebut. Penerjemah cenderung tidak melihat kesalahannya sendiri karena sudah terbiasa dengan teks yang sama.
-:::
+
+</Callout>
 
 ---
 
@@ -69,9 +71,11 @@ Periksa di Subtitle Grid Aegisub. Beberapa masalah ini bisa dilihat sekaligus di
 | T8  | Tidak ada karakter Mandarin di teks final        | `Ctrl+F` → paste karakter Cina untuk tes                          |
 | T9  | Tidak ada kode tag yang rusak atau tidak ditutup | Misal `{\i1}` tanpa `{\i0}`                                       |
 
-:::tip[Cara cepat cek overlap di Aegisub]
+<Callout type="idea" title="Cara cepat cek overlap di Aegisub">
+
 **Timing → Check Subtitle Consistency** → centang _Overlap with next subtitle_. Aegisub akan menandai semua baris yang bermasalah sekaligus.
-:::
+
+</Callout>
 
 ---
 
@@ -174,9 +178,11 @@ Beri label prioritas di setiap catatan agar penerjemah tahu mana yang harus dise
 | ⚠️ **Revisi Mayor** | Error di kategori teknis (T) atau konten sensitif (S), atau > 5 catatan _Wajib_                                                       | Kembalikan ke penerjemah, QC penuh diulang setelah revisi |
 | ❌ **Gagal**        | Error sistemis: tanda baca Mandarin masif, banyak karakter Cina tersisa, terjemahan mesin nyata, nama tokoh tidak dilokal sama sekali | Kembalikan seluruh file untuk pengerjaan ulang            |
 
-:::caution[Satu error S otomatis Revisi Mayor]
+<Callout type="warn" title="Satu error S otomatis Revisi Mayor">
+
 Satu saja error di kategori **Konten Sensitif (S)** langsung naik ke Revisi Mayor, terlepas dari jumlah total catatan. Konten sensitif yang lolos ke rilis berpotensi menimbulkan masalah hukum.
-:::
+
+</Callout>
 
 ---
 

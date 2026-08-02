@@ -7,9 +7,11 @@ sidebar:
 
 Timing adalah proses menentukan kapan setiap baris subtitle muncul dan menghilang di layar, selaras dengan audio dan potongan gambar. Tujuannya bukan sekadar "subtitle terlihat" — melainkan penonton bisa membaca dengan nyaman tanpa harus berhenti menikmati visual.
 
-:::caution[Timing yang buruk merusak penonton yang tidak mengerti masalahnya]
+<Callout type="warn" title="Timing yang buruk merusak penonton yang tidak mengerti masalahnya">
+
 Penonton jarang menyadari timing yang salah. Mereka hanya merasa lelah membaca, sering ketinggalan, atau subtitle terasa terburu-buru. Mereka akan menyalahkan terjemahan — padahal masalahnya ada di timing.
-:::
+
+</Callout>
 
 ---
 
@@ -44,9 +46,11 @@ Ini adalah angka minimum yang berlaku di semua proyek tanpa pengecualian. QC aka
 | Subtitle melewati scene change | **Dilarang**                              | T5      |
 | Durasi maksimum per baris      | Tidak ada batasan kaku — ikuti audio      | —       |
 
-:::tip[Cara mudah mengingat angka 83 ms]
+<Callout type="idea" title="Cara mudah mengingat angka 83 ms">
+
 83 ms ≈ 2 frame di video 24fps. Dua baris yang terlalu berdekatan akan membuat subtitle terasa berkedip — otak tidak sempat memproses jeda antara dua kalimat berbeda.
-:::
+
+</Callout>
 
 ---
 
@@ -128,7 +132,8 @@ Saat gambar berganti, mata penonton secara otomatis mengalihkan perhatian ke vis
 
 **Cara otomatis:** Gunakan **Video → Find Next Scene Change** (`Alt+→`) untuk melompat ke scene change berikutnya yang dideteksi Aegisub secara otomatis.
 
-:::tip[Scene change di tengah dialog]
+<Callout type="idea" title="Scene change di tengah dialog">
+
 Jika karakter bicara melewati scene change (misalnya karakter A bicara, lalu cut ke wajah karakter B yang masih mendengarkan), potong baris di batas scene change:
 
 ```
@@ -136,7 +141,7 @@ Baris 1: "Aku sudah tahu sejak lama"          → End di frame sebelum cut
 Baris 2: "bahwa ini tidak akan berhasil."     → Start di frame setelah cut
 ```
 
-:::
+</Callout>
 
 ### Baris terlalu pendek karena terpotong scene change
 
@@ -254,9 +259,11 @@ Untuk menggeser semua baris sejumlah waktu yang sama:
 3. Masukkan nilai geser dalam milidetik, pilih arah (maju/mundur)
 4. Konfirmasi
 
-:::caution[Retiming tidak selalu lurus]
+<Callout type="warn" title="Retiming tidak selalu lurus">
+
 Jika video baru berbeda secara framerate (misalnya 24fps ke 25fps), pergeseran tidak konstan. Setiap baris bergeser proporsi berbeda. Gunakan fitur **Timing → Resync** atau diskusikan dengan koordinator — jangan coba lakukan manual.
-:::
+
+</Callout>
 
 ### Retiming sebagian baris
 

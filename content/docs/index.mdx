@@ -1,27 +1,90 @@
 ---
 title: "Yuramedia Docs"
-description: Dokumentasi panduan lokalisasi dan terjemahan untuk tim Yuramedia Link.
+description: Pusat dokumentasi resmi panduan lokalisasi, terjemahan, dan teknis untuk tim Yuramedia Link.
 ---
 
-import { Card, Cards } from "fumadocs-ui/components/card"
+## Pengenalan
 
-## Apa yang ada di sini?
+Selamat datang di **Yuramedia Docs**. Portal ini berisi panduan alur kerja, standar lokalisasi, aturan penulisan subtitle, serta referensi terminologi untuk seluruh proyek Yuramedia Link.
+
+<Callout type="warn" title="Penting untuk Semua Tim">
+
+  Pastikan Anda telah membaca **Panduan Memulai** sebelum mengambil task terjemahan atau QC pertama Anda.
+
+</Callout>
+
+---
+
+## Navigasi Dokumentasi
 
 <Cards>
-    <Card title="Panduan Memulai" href="/guides/memulai">
-        Langkah awal dan pengenalan alur kerja lokalisasi dan terjemahan di Yuramedia Link.
-    </Card>
-    <Card title="Panduan Terjemahan Serial Pendek" href="/guides/panduan-terjemahan-serial-pendek-cina-ke-indonesia">
-        Aturan lengkap lokalisasi serial pendek Tiongkok ke bahasa Indonesia — dari nama tokoh, istilah budaya, hingga
-        format subtitle.
-    </Card>
-    <Card title="Glosarium Istilah" href="/reference/istilah">
-        Glosarium istilah yang sudah dilokalisasi per genre: Isekai, Xianxia, Romansa, dan lainnya.
-    </Card>
-    <Card title="Sumber Tambahan" href="/reference/sumber-tambahan">
-        Referensi eksternal: style guide Netflix, Crunchyroll, NBCU, software subtitle, dan sumber terjemahan.
-    </Card>
-    <Card title="Berkontribusi" href="https://github.com/yuramedia/docs">
-        Ingin menambahkan istilah atau panduan baru? Baca panduan kontribusi di GitHub.
-    </Card>
+  <Card title="Panduan Memulai" href="/guides/memulai">
+    Langkah awal dan pengenalan alur kerja lokalisasi dan terjemahan di Yuramedia Link.
+  </Card>
+  <Card title="Panduan Serial Pendek" href="/guides/panduan-terjemahan-serial-pendek-cina-ke-indonesia">
+    Aturan lengkap lokalisasi serial pendek Tiongkok ke Indonesia — nama tokoh, budaya, & format subtitle.
+  </Card>
+  <Card title="Glosarium Istilah" href="/reference/istilah">
+    Glosarium istilah resmi per genre: Isekai, Xianxia/Wuxia, Romansa, dan genre lainnya.
+  </Card>
+  <Card title="Sumber Tambahan" href="/reference/sumber-tambahan">
+    Referensi eksternal: style guide Netflix, Crunchyroll, NBCU, software Aegisub, & tools terjemahan.
+  </Card>
+</Cards>
+
+---
+
+## Alur Kerja Lokalisasi
+
+<Steps>
+  <Step>
+    ### Memahami Konteks & Genre
+    Baca panduan genre terkait (Anime, Xianxia, Romansa, Isekai) dan glosarium istilah sebelum memulai penerjemahan.
+  </Step>
+  <Step>
+    ### Penerjemahan & Adaptasi
+    Utamakan lokalisasi makna alih-alih terjemahan harfiah per kata. Pastikan istilah konsisten sepanjang proyek.
+  </Step>
+  <Step>
+    ### Quality Control (QC) & Polishing
+    Lakukan pemeriksaan ulang untuk ketersambungan kalimat, kesalahan ketik (typo), serta kesesuaian waktu subtitle (timing).
+  </Step>
+</Steps>
+
+---
+
+## Standar Catatan & Peringatan
+
+<Callout type="info" title="Informasi Penting">
+
+  Gunakan istilah resmi yang telah disepakati pada glosarium untuk nama tokoh dan sebutan kehormatan.
+
+</Callout>
+
+<Callout type="warn" title="Perhatian Kurs & Nominal">
+
+  Selalu verifikasi nilai tukar kurs mata uang terkini saat mengadaptasi nominal transaksi dalam cerita.
+
+</Callout>
+
+---
+
+## Contoh Format Subtitle (ASS/SRT)
+
+```ini title="Format Waktu & Gaya Subtitle"
+// Format Timing ASS
+Dialogue: 0,0:00:01.20,0:00:04.50,Default,,0,0,0,,Di mana pedang pusaka itu berada?
+Dialogue: 0,0:00:04.80,0:00:07.10,Default,,0,0,0,,Aku telah menyembunyikannya di puncak Gunung Kunlun. // [!code highlight]
+```
+
+---
+
+## Berkontribusi
+
+Ingin menambahkan istilah baru atau memperbarui panduan? Anda dapat mengajukan Pull Request atau membuka Issue melalui repositori GitHub resmi kami.
+
+<Cards>
+  <Card title="Repositori GitHub" href="https://github.com/yuramedia/docs">
+    Lihat kode sumber dan ajukan kontribusi untuk dokumentasi ini di GitHub.
+  </Card>
 </Cards>

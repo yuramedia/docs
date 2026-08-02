@@ -19,6 +19,7 @@
         "next": "16.2.12",
         "react": "^19.2.8",
         "react-dom": "^19.2.8",
+        "remark-directive": "^4.0.0",
         "takumi-js": "^2.5.4"
     },
     "devDependencies": {
