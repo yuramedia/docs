@@ -50,18 +50,17 @@ export function baseOptions(): BaseLayoutProps {
                     <Image
                         src="/logo.svg"
                         alt="Yuramedia Link Logo"
-                        width={28}
-                        height={28}
-                        className="dark:hidden w-7 h-7"
+                        width={160}
+                        height={80}
+                        className="dark:hidden h-9 w-auto"
                     />
                     <Image
                         src="/logo-dark.svg"
                         alt="Yuramedia Link Logo"
-                        width={28}
-                        height={28}
-                        className="hidden dark:block w-7 h-7"
+                        width={160}
+                        height={80}
+                        className="hidden dark:block h-9 w-auto"
                     />
-                    <span>Yuramedia Docs</span>
                 </div>
             )
         },
